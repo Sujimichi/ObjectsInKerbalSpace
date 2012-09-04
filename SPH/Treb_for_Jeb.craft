@@ -1,0 +1,1316 @@
+ship = Treb_for_Jeb
+version = 0.16.0
+type = SPH
+PART
+{
+	part = Mark1-2Pod_4293868032
+	pos = -0.2692224,0.6076908,3.025528
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	attm = 0
+	link = Kosmos.Pirdora.1m.body_4293867952
+	link = C7fuselage_4293867750
+	link = C7fuselage_4293867726
+	attN = top, Kosmos.Pirdora.1m.body_4293867952
+}
+PART
+{
+	part = Kosmos.Pirdora.1m.body_4293867952
+	pos = -0.2692224,3.373516,3.025528
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = 0
+	attm = 0
+	link = DRarmtruss1_4293867924
+	link = DRarmtruss1_4293867892
+	link = NP.1mPLFexpBOLT_4293867796
+	link = launchClamp1_4293867414
+	link = launchClamp1_4293867310
+	link = Kosmos.Angara.Strut.Connector.Strap_4293865012
+	link = Kosmos.Angara.Strut.Connector.Strap_4293864964
+	attN = bottom, Mark1-2Pod_4293868032
+}
+PART
+{
+	part = DRarmtruss1_4293867924
+	pos = 0.3466146,4.752464,3.081033
+	rot = 0.5,0.5,-0.5,0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = 0
+	attm = 1
+	link = DRarmtruss1_4293867860
+	link = Kosmos.Angara.Strut.Connector.Strap_4293867606
+	link = Kosmos.Angara.Strut.Connector.Strap_4293867510
+	link = Kosmos.Angara.Strut.Connector.Strap_4293865108
+	sym = DRarmtruss1_4293867892
+	srfN = srfAttach, Kosmos.Pirdora.1m.body_4293867952
+}
+PART
+{
+	part = DRarmtruss1_4293867892
+	pos = -0.8850584,4.752464,3.081033
+	rot = 0.5,-0.5,0.5,0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = 0
+	attm = 1
+	link = DRarmtruss1_4293867828
+	link = Kosmos.Angara.Strut.Connector.Strap_4293867558
+	link = Kosmos.Angara.Strut.Connector.Strap_4293867462
+	link = Kosmos.Angara.Strut.Connector.Strap_4293865060
+	sym = DRarmtruss1_4293867924
+	srfN = srfAttach, Kosmos.Pirdora.1m.body_4293867952
+}
+PART
+{
+	part = DRarmtruss1_4293867860
+	pos = 0.5647517,4.974837,3.030617
+	rot = 4.778909E-06,-0.7071068,4.757834E-06,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = 0
+	attm = 1
+	link = DRhinge1_4293864916
+	sym = DRarmtruss1_4293867828
+	srfN = srfAttach, DRarmtruss1_4293867924
+}
+PART
+{
+	part = DRarmtruss1_4293867828
+	pos = -1.103195,4.974837,3.030617
+	rot = 4.778908E-06,0.7071068,-4.757835E-06,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = 0
+	attm = 1
+	sym = DRarmtruss1_4293867860
+	srfN = srfAttach, DRarmtruss1_4293867892
+}
+PART
+{
+	part = NP.1mPLFexpBOLT_4293867796
+	pos = -0.2505495,4.970226,3.094707
+	rot = -0.4999999,0.5000001,-0.4999999,0.5000001
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = -1
+	attm = 1
+	link = probekitStrut2_4293867206
+	srfN = srfAttach, Kosmos.Pirdora.1m.body_4293867952
+}
+PART
+{
+	part = C7fuselage_4293867750
+	pos = 0.564448,1.098611,1.746863
+	rot = -0.04401577,0.9556647,0.1928457,0.2181241
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 1
+	link = C7fuselage_4293867702
+	link = C7fuselage_4293867654
+	sym = C7fuselage_4293867726
+	srfN = srfAttach, Mark1-2Pod_4293868032
+}
+PART
+{
+	part = C7fuselage_4293867726
+	pos = -1.102892,1.098611,1.746863
+	rot = 0.04401577,0.9556647,0.1928458,-0.2181241
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = -1
+	attm = 1
+	link = C7fuselage_4293867678
+	link = C7fuselage_4293867630
+	sym = C7fuselage_4293867750
+	srfN = srfAttach, Mark1-2Pod_4293868032
+}
+PART
+{
+	part = C7fuselage_4293867702
+	pos = 1.666487,1.035737,1.006876
+	rot = 0.007400033,0.8666377,0.1976666,0.4580527
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 8
+	sqor = -1
+	attm = 1
+	sym = C7fuselage_4293867678
+	srfN = srfAttach, C7fuselage_4293867750
+}
+PART
+{
+	part = C7fuselage_4293867678
+	pos = -2.204932,1.035736,1.006871
+	rot = -0.007400028,0.8666378,0.1976666,-0.4580527
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 9
+	sqor = -1
+	attm = 1
+	sym = C7fuselage_4293867702
+	srfN = srfAttach, C7fuselage_4293867726
+}
+PART
+{
+	part = C7fuselage_4293867654
+	pos = 0.5974815,1.011839,0.3995466
+	rot = -0.09243152,0.9795552,0.1748807,-0.03667146
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 10
+	sqor = -1
+	attm = 1
+	sym = C7fuselage_4293867630
+	srfN = srfAttach, C7fuselage_4293867750
+}
+PART
+{
+	part = C7fuselage_4293867630
+	pos = -1.135927,1.011838,0.399543
+	rot = 0.09243149,0.9795552,0.1748807,0.0366713
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 11
+	sqor = -1
+	attm = 1
+	sym = C7fuselage_4293867654
+	srfN = srfAttach, C7fuselage_4293867726
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293867606
+	pos = 1.769693,4.758124,3.14133
+	rot = 8.642673E-07,1,8.642673E-07,-5.960464E-08
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 12
+	sqor = -1
+	attm = 1
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293867558
+	srfN = srfAttach, DRarmtruss1_4293867924
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293867558
+	pos = -2.308138,4.758124,3.14133
+	rot = 8.493662E-07,1.490116E-08,8.493662E-07,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 13
+	sqor = -1
+	attm = 1
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293867606
+	srfN = srfAttach, DRarmtruss1_4293867892
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293867510
+	pos = 1.724501,4.763879,2.858655
+	rot = 0.5,0.5,0.5,-0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 14
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_80; pos: -2.564665,-1.318114,-2.697372; dir: -0.649527,-0.3338253,-0.6831363
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293867462
+	srfN = srfAttach, DRarmtruss1_4293867924
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293867462
+	pos = -2.262944,4.763879,2.858655
+	rot = -0.5,0.5,-0.5,-0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 15
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_83; pos: -2.564667,-1.318114,2.697374; dir: -0.6495271,-0.3338253,0.6831363
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293867510
+	srfN = srfAttach, DRarmtruss1_4293867892
+}
+PART
+{
+	part = launchClamp1_4293867414
+	pos = 0.7078209,1.761476,4.06058
+	rot = 4.098834E-08,0.9238795,9.895455E-08,-0.3826835
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 16
+	sqor = -1
+	attm = 1
+	sym = launchClamp1_4293867310
+	srfN = srfAttach, Kosmos.Pirdora.1m.body_4293867952
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 0.9597455
+		height = 2.421627
+		towerRot = 0,0,0,1
+	}
+}
+PART
+{
+	part = launchClamp1_4293867310
+	pos = -1.246265,1.761476,4.06058
+	rot = -4.098834E-08,0.9238795,9.895457E-08,0.3826836
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 17
+	sqor = -1
+	attm = 1
+	sym = launchClamp1_4293867414
+	srfN = srfAttach, Kosmos.Pirdora.1m.body_4293867952
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 0.9597455
+		height = 2.421627
+		towerRot = 0,0,0,1
+	}
+}
+PART
+{
+	part = probekitStrut2_4293867206
+	pos = -0.2037277,5.033591,3.007509
+	rot = -0.3007057,1.24345E-14,-5.960464E-08,0.9537171
+	mir = 1,1,1
+	istg = 0
+	dstg = 2
+	sidx = 18
+	sqor = 0
+	attm = 1
+	link = DRarmtruss2_4293867182
+	link = DRarmtruss2_4293866646
+	srfN = srfAttach, NP.1mPLFexpBOLT_4293867796
+}
+PART
+{
+	part = DRarmtruss2_4293867182
+	pos = -0.2147064,5.625633,2.690851
+	rot = 0.4617493,-1.490115E-08,-4.470349E-08,0.8870106
+	mir = 1,1,1
+	istg = 0
+	dstg = 2
+	sidx = 19
+	sqor = 0
+	attm = 1
+	link = DRarmtruss2_4293867142
+	link = probekitStrut2_4293866910
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866742
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866694
+	srfN = srfAttach, probekitStrut2_4293867206
+	attN = top, DRarmtruss2_4293867142
+}
+PART
+{
+	part = DRarmtruss2_4293867142
+	pos = -0.214716,7.140601,4.85445
+	rot = 0.4617486,6.705523E-08,-7.450567E-09,0.887011
+	mir = 1,1,1
+	istg = 0
+	dstg = 2
+	sidx = 20
+	sqor = 0
+	attm = 0
+	link = Kosmos.Angara.Strut.Connector.Strap_4293867102
+	link = Kosmos.Angara.Strut.Connector.Strap_4293867054
+	link = Kosmos.Angara.Strut.Connector.Strap_4293867006
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866958
+	link = c7wingtank_4293865722
+	srfN = srfAttach, probekitStrut2_4293867206
+	attN = top, c7wingtank_4293865722
+	attN = bottom, DRarmtruss2_4293867182
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293867102
+	pos = -0.05002476,7.425857,4.869848
+	rot = -0.1905668,0.7169455,0.425389,-0.5183802
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 1
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_48; pos: -0.6745982,-0.2650468,0.3347311; dir: -0.8449799,-0.3319931,0.4192736
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293867054
+	srfN = srfAttach, DRarmtruss2_4293867142
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293867054
+	pos = -0.3794011,7.425857,4.869851
+	rot = -0.4253886,0.518381,0.1905668,-0.7169451
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 2
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_48; pos: -0.6746148,-0.2650535,-0.3347397; dir: -0.8449798,-0.3319927,-0.4192732
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293867102
+	srfN = srfAttach, DRarmtruss2_4293867142
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293867006
+	pos = 0.2071526,8.71507,6.800153
+	rot = -0.3305097,0.5704022,0.5302666,-0.5331249
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 3
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_48; pos: 0.07195328,-2.773599,-0.20451; dir: 0.02586442,-0.9969593,-0.07351054
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866958
+	srfN = srfAttach, DRarmtruss2_4293867142
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866958
+	pos = -0.6365932,8.715065,6.800162
+	rot = -0.5302672,0.5331242,0.3305093,-0.5704027
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 4
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_48; pos: 0.07195865,-2.773748,0.2045214; dir: 0.02586471,-0.996959,0.07351068
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293867006
+	srfN = srfAttach, DRarmtruss2_4293867142
+}
+PART
+{
+	part = probekitStrut2_4293866910
+	pos = -0.2147118,7.266957,4.624027
+	rot = 1.24345E-14,-0.9537171,0.3007058,5.960464E-08
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = -1
+	attm = 1
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866886
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866838
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866790
+	srfN = srfAttach, DRarmtruss2_4293867182
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866886
+	pos = -0.05834141,7.850502,4.135473
+	rot = -0.4304595,0.5609857,0.5609857,-0.4304594
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 5
+	sqor = -1
+	attm = 1
+	cData = tgt: DRarmtruss2_30; pos: 0.6174944,0.4069574,-0.2335397; dir: 0.7962354,0.5247533,-0.3011413
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866838
+	srfN = srfAttach, probekitStrut2_4293866910
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866838
+	pos = -0.371072,7.850502,4.135473
+	rot = -0.5609856,0.4304595,0.4304594,-0.5609856
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 6
+	sqor = -1
+	attm = 1
+	cData = tgt: DRarmtruss2_30; pos: 0.6174941,0.4069576,0.2335416; dir: 0.7962348,0.5247528,0.3011405
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866886
+	srfN = srfAttach, probekitStrut2_4293866910
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866790
+	pos = -0.2147062,7.980051,4.092228
+	rot = 0.326506,-0.6272113,-0.3265062,0.6272112
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 7
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, probekitStrut2_4293866910
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866742
+	pos = 0.007672638,5.574036,2.893914
+	rot = -7.450578E-08,0.8870106,0.4617494,1.341105E-07
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 8
+	sqor = -1
+	attm = 1
+	cData = tgt: c7wingtank_36; pos: -0.1948787,5.149471,-0.230958; dir: -0.03777938,0.9982853,-0.04477388
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866694
+	srfN = srfAttach, DRarmtruss2_4293867182
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866694
+	pos = -0.4370891,5.574034,2.893914
+	rot = 0.4617493,1.788139E-07,-5.960461E-08,0.8870106
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 9
+	sqor = -1
+	attm = 1
+	cData = tgt: c7wingtank_36; pos: -0.1948793,5.149472,0.2309558; dir: -0.03777939,0.9982851,0.04477352
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866742
+	srfN = srfAttach, DRarmtruss2_4293867182
+}
+PART
+{
+	part = DRarmtruss2_4293866646
+	pos = -0.2323292,5.565592,2.537106
+	rot = 1.490115E-08,0.4617493,-0.8870106,-4.470349E-08
+	mir = 1,1,1
+	istg = 0
+	dstg = 2
+	sidx = 21
+	sqor = 0
+	attm = 1
+	link = DRarmtruss2_4293866606
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866106
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866058
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866010
+	link = Kosmos.Angara.Strut.Connector.Strap_4293865962
+	link = Kosmos.Angara.Strut.Connector.Strap_4293865914
+	link = Kosmos.Angara.Strut.Connector.Strap_4293865866
+	link = Kosmos.Angara.Strut.Connector.Strap_4293865818
+	link = Kosmos.Angara.Strut.Connector.Strap_4293865770
+	srfN = srfAttach, probekitStrut2_4293867206
+	attN = top, DRarmtruss2_4293866606
+}
+PART
+{
+	part = DRarmtruss2_4293866606
+	pos = -0.2323212,4.050597,0.3735197
+	rot = 2.011656E-07,0.4617499,-0.8870103,-1.564622E-07
+	mir = 1,1,1
+	istg = 0
+	dstg = 2
+	sidx = 22
+	sqor = 0
+	attm = 0
+	link = DRarmtruss2_4293866566
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866202
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866154
+	srfN = srfAttach, probekitStrut2_4293867206
+	attN = top, DRarmtruss2_4293866566
+	attN = bottom, DRarmtruss2_4293866646
+}
+PART
+{
+	part = DRarmtruss2_4293866566
+	pos = -0.2323052,1.020594,-3.953635
+	rot = 0.4617487,6.705523E-08,-7.450567E-09,0.8870109
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = Kosmos.VA.RRV.RCS.Thrusters_4293866526
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866394
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866346
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866298
+	link = Kosmos.Angara.Strut.Connector.Strap_4293866250
+	link = telescopicLadderBay_4293864788
+	attN = top, DRarmtruss2_4293866606
+	attN = bottom, Kosmos.VA.RRV.RCS.Thrusters_4293866526
+}
+PART
+{
+	part = Kosmos.VA.RRV.RCS.Thrusters_4293866526
+	pos = -0.2323033,1.089335,-4.201606
+	rot = -0.8870109,2.980233E-08,-2.980232E-08,0.4617487
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = DRhinge2_4293865146
+	srfN = , DRarmtruss2_4293866566
+	attN = main, DRarmtruss2_4293866566
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866394
+	pos = -0.009924978,1.152777,-3.45006
+	rot = -1.490116E-07,0.8870109,0.4617487,8.9407E-08
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 10
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_79; pos: -1.889452,2.675675,-2.523669; dir: -0.4569416,0.6470823,-0.6103191
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866346
+	srfN = srfAttach, DRarmtruss2_4293866566
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866346
+	pos = -0.4546895,1.152766,-3.450061
+	rot = 0.4617487,9.685757E-08,-9.685753E-08,0.8870109
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 11
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_82; pos: -1.893285,2.681103,2.528788; dir: -0.4569415,0.6470822,0.6103188
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866394
+	srfN = srfAttach, DRarmtruss2_4293866566
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866298
+	pos = -0.009923488,1.621927,-3.398386
+	rot = -1.490116E-07,0.8870109,0.4617487,8.9407E-08
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 12
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_79; pos: -1.880357,2.827511,-2.605846; dir: -0.4393042,0.6605879,-0.6087987
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866250
+	srfN = srfAttach, DRarmtruss2_4293866566
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866250
+	pos = -0.4546899,1.621927,-3.398386
+	rot = 0.4617487,9.685757E-08,-9.685753E-08,0.8870109
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 13
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_82; pos: -1.863103,2.801566,2.581935; dir: -0.4393041,0.6605878,0.6087984
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866298
+	srfN = srfAttach, DRarmtruss2_4293866566
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866202
+	pos = -0.009933323,2.610872,-1.685118
+	rot = -3.650784E-07,0.4617497,-0.8870103,1.713634E-07
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 14
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_80; pos: -0.8338602,-0.8450579,1.82783; dir: -0.3825844,-0.3877245,0.8386294
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866154
+	srfN = srfAttach, DRarmtruss2_4293866606
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866154
+	pos = -0.4546974,2.610871,-1.685118
+	rot = 0.8870103,-1.2666E-07,4.097819E-07,-0.4617497
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 15
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_83; pos: -0.8175002,-0.8284799,-1.791974; dir: -0.3825842,-0.3877244,-0.8386293
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866202
+	srfN = srfAttach, DRarmtruss2_4293866606
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866106
+	pos = -0.03907475,5.700226,2.346077
+	rot = -0.6755655,0.2164063,0.6731778,-0.2088337
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 16
+	sqor = -1
+	attm = 1
+	cData = tgt: DRarmtruss2_30; pos: -0.3958315,0.03720998,0.06390504; dir: -0.9830013,0.09240846,0.1587029
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866058
+	srfN = srfAttach, DRarmtruss2_4293866646
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866058
+	pos = -0.4255814,5.700226,2.346078
+	rot = -0.6731776,0.2088337,0.6755656,-0.2164065
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 17
+	sqor = -1
+	attm = 1
+	cData = tgt: DRarmtruss2_30; pos: -0.3958275,0.03720953,-0.06390547; dir: -0.9830008,0.0924086,-0.1587026
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866106
+	srfN = srfAttach, DRarmtruss2_4293866646
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293866010
+	pos = -0.05775413,5.291739,2.533695
+	rot = -0.6272118,-0.3265047,0.6272122,0.3265046
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 18
+	sqor = -1
+	attm = 1
+	cData = tgt: DRarmtruss2_30; pos: -0.03640889,-0.3995173,0.01968333; dir: -0.09064908,-0.9946895,0.04900846
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293865962
+	srfN = srfAttach, DRarmtruss2_4293866646
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293865962
+	pos = -0.4069075,5.291739,2.533695
+	rot = -0.6272119,-0.3265046,0.6272121,0.3265046
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 19
+	sqor = -1
+	attm = 1
+	cData = tgt: DRarmtruss2_30; pos: -0.03640898,-0.3995173,-0.01968439; dir: -0.09064938,-0.9946887,-0.04900833
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293866010
+	srfN = srfAttach, DRarmtruss2_4293866646
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293865914
+	pos = -0.1131348,4.315034,0.363441
+	rot = 0.6272091,-0.3265103,0.6272091,-0.3265101
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 20
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_48; pos: -0.7704273,-5.103025,-0.05561235; dir: -0.1492761,-0.9887535,-0.01077556
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293865866
+	srfN = srfAttach, DRarmtruss2_4293866646
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293865866
+	pos = -0.351509,4.315033,0.363441
+	rot = 0.6272089,-0.3265104,0.6272092,-0.3265103
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 21
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_48; pos: -0.7842609,-5.194643,0.05660849; dir: -0.1492762,-0.9887524,0.01077482
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293865914
+	srfN = srfAttach, DRarmtruss2_4293866646
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293865818
+	pos = -0.00994429,4.142482,0.4935489
+	rot = -9.685752E-08,0.4617491,-0.8870107,1.415611E-07
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 22
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_80; pos: -0.8265599,1.11994,1.805811; dir: -0.3625256,0.4912004,0.7920216
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293865770
+	srfN = srfAttach, DRarmtruss2_4293866646
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293865770
+	pos = -0.4547028,4.14248,0.4935567
+	rot = 0.8870106,-5.215409E-08,1.266599E-07,-0.4617492
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 23
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_83; pos: -0.8315586,1.126714,-1.816735; dir: -0.3625254,0.4912002,-0.7920213
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293865818
+	srfN = srfAttach, DRarmtruss2_4293866646
+}
+PART
+{
+	part = c7wingtank_4293865722
+	pos = -0.2147208,8.716524,7.105069
+	rot = 2.980232E-08,0.8870111,0.4617485,-2.980233E-08
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 3
+	sqor = -1
+	attm = 0
+	link = CBBP.Durgun.Capsule.Engine_4293865698
+	link = CBBP.Durgun.Capsule.Engine_4293865638
+	link = c7wingtank_4293865578
+	attN = top, c7wingtank_4293865578
+	attN = bottom, DRarmtruss2_4293867142
+}
+PART
+{
+	part = CBBP.Durgun.Capsule.Engine_4293865698
+	pos = -0.9825368,9.169626,6.812628
+	rot = 0.631612,0.1018617,0.6997315,0.3179096
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 4
+	sqor = -1
+	attm = 1
+	sym = CBBP.Durgun.Capsule.Engine_4293865638
+	srfN = srfAttach, c7wingtank_4293865722
+}
+PART
+{
+	part = CBBP.Durgun.Capsule.Engine_4293865638
+	pos = 0.5531011,9.169615,6.812603
+	rot = -0.6316118,0.1018616,0.6997316,-0.3179102
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 5
+	sqor = -1
+	attm = 1
+	sym = CBBP.Durgun.Capsule.Engine_4293865698
+	srfN = srfAttach, c7wingtank_4293865722
+}
+PART
+{
+	part = c7wingtank_4293865578
+	pos = -0.2147204,8.834824,7.274021
+	rot = 1.490116E-08,0.887011,0.4617485,-1.490116E-08
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 6
+	sqor = -1
+	attm = 0
+	link = c7wingtank_4293865554
+	link = CBBP.Durgun.Capsule.Engine_4293865266
+	link = CBBP.Durgun.Capsule.Engine_4293865206
+	attN = top, c7wingtank_4293865554
+	attN = bottom, c7wingtank_4293865722
+}
+PART
+{
+	part = c7wingtank_4293865554
+	pos = -0.214721,8.953121,7.442968
+	rot = 1.490116E-08,0.8870109,0.4617486,-1.490116E-08
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 7
+	sqor = -1
+	attm = 0
+	link = CBBP.Durgun.Capsule.Engine_4293865530
+	link = CBBP.Durgun.Capsule.Engine_4293865470
+	link = c7wingtank_4293865410
+	attN = top, c7wingtank_4293865410
+	attN = bottom, c7wingtank_4293865578
+}
+PART
+{
+	part = CBBP.Durgun.Capsule.Engine_4293865530
+	pos = -0.9825375,9.406208,7.150517
+	rot = 0.6316116,0.1018617,0.6997321,0.3179091
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 8
+	sqor = -1
+	attm = 1
+	sym = CBBP.Durgun.Capsule.Engine_4293865470
+	srfN = srfAttach, c7wingtank_4293865554
+}
+PART
+{
+	part = CBBP.Durgun.Capsule.Engine_4293865470
+	pos = 0.5531024,9.40624,7.150517
+	rot = -0.6316121,0.1018611,0.6997309,-0.3179109
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 9
+	sqor = -1
+	attm = 1
+	sym = CBBP.Durgun.Capsule.Engine_4293865530
+	srfN = srfAttach, c7wingtank_4293865554
+}
+PART
+{
+	part = c7wingtank_4293865410
+	pos = -0.2147208,9.071455,7.611972
+	rot = 2.980232E-08,0.8870111,0.4617484,-2.980233E-08
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 10
+	sqor = -1
+	attm = 0
+	link = CBBP.Durgun.Capsule.Engine_4293865386
+	link = CBBP.Durgun.Capsule.Engine_4293865326
+	attN = bottom, c7wingtank_4293865554
+}
+PART
+{
+	part = CBBP.Durgun.Capsule.Engine_4293865386
+	pos = -1.004964,9.499428,7.32274
+	rot = 0.6316118,0.1018617,0.6997321,0.3179091
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 11
+	sqor = -1
+	attm = 1
+	sym = CBBP.Durgun.Capsule.Engine_4293865326
+	srfN = srfAttach, c7wingtank_4293865410
+}
+PART
+{
+	part = CBBP.Durgun.Capsule.Engine_4293865326
+	pos = 0.575532,9.499439,7.322728
+	rot = 0.6316119,-0.1018612,-0.6997312,0.3179107
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 12
+	sqor = -1
+	attm = 1
+	sym = CBBP.Durgun.Capsule.Engine_4293865386
+	srfN = srfAttach, c7wingtank_4293865410
+}
+PART
+{
+	part = CBBP.Durgun.Capsule.Engine_4293865266
+	pos = -1.00496,9.26281,6.98484
+	rot = 0.6316118,0.1018617,0.6997318,0.3179093
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 13
+	sqor = -1
+	attm = 1
+	sym = CBBP.Durgun.Capsule.Engine_4293865206
+	srfN = srfAttach, c7wingtank_4293865578
+}
+PART
+{
+	part = CBBP.Durgun.Capsule.Engine_4293865206
+	pos = 0.5755242,9.262838,6.984828
+	rot = 0.6316121,-0.1018613,-0.6997308,0.3179112
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 14
+	sqor = -1
+	attm = 1
+	sym = CBBP.Durgun.Capsule.Engine_4293865266
+	srfN = srfAttach, c7wingtank_4293865578
+}
+PART
+{
+	part = DRhinge2_4293865146
+	pos = -0.2216643,0.7955184,-4.761761
+	rot = -0.1430781,0.69248,-0.1430781,0.6924804
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 15
+	sqor = -1
+	attm = 1
+	cData = AAEAAAD|||||AQAAAAAAAAAEAQAAAOIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuRGljdGlvbmFyeWAyW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuNS4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdjZWM4NWQ3YmVhNzc5OGVdLFtTeXN0ZW0uT2JqZWN0LCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuNS4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdjZWM4NWQ3YmVhNzc5OGVdXQQAAAAHVmVyc2lvbghDb21wYXJlcghIYXNoU2l6ZQ1LZXlWYWx1ZVBhaXJzAAMAAwiSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV1dCOYBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV0sW1N5c3RlbS5PYmplY3QsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV1dW10GAAAACQIAAAAMAAAACQMAAAAEAgAAAJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjUuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03Y2VjODVkN2JlYTc3OThlXV0AAAAABwMAAAAAAQAAAAYAAAAD5AFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjUuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03Y2VjODVkN2JlYTc3OThlXSxbU3lzdGVtLk9iamVjdCwgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjUuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03Y2VjODVkN2JlYTc3OThlXV0EBAAAAOQBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV0sW1N5c3RlbS5PYmplY3QsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV1dAgAAAANrZXkFdmFsdWUBAgYFAAAABG5hbWUGBgAAAA1OZXcgRG9vckhpbmdlAQcAAAAEAAAABggAAAADcm90CAsAAAAAAQkAAAAEAAAABgoAAAAFdHJhbnMICwAAAAABCwAAAAQAAAAGDAAAAAVncm91cAYNAAAABlJndXJhZAEOAAAABAAAAAYPAAAAA2tleQYQAAAAATEBEQAAAAQAAAAGEgAAAAZyZXZrZXkGEwAAAAEyCw**
+	srfN = srfAttach, Kosmos.VA.RRV.RCS.Thrusters_4293866526
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293865108
+	pos = 0.4864359,4.720654,2.858655
+	rot = 0.5,0.5,0.5,-0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 23
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_83; pos: -2.549863,-1.310506,-2.681804; dir: -0.649527,-0.3338253,-0.6831363
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293865060
+	srfN = srfAttach, DRarmtruss1_4293867924
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293865060
+	pos = -1.02488,4.720654,2.858655
+	rot = -0.5,0.5,-0.5,-0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 24
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_80; pos: -2.549862,-1.310505,2.681803; dir: -0.6495271,-0.3338253,0.6831363
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293865108
+	srfN = srfAttach, DRarmtruss1_4293867892
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293865012
+	pos = 0.3466145,4.285396,3.083322
+	rot = 0,1,0,-4.371139E-08
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 25
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_79; pos: -1.732703,-2.210936,1.849099; dir: -0.5152276,-0.6574328,0.5498387
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293864964
+	srfN = srfAttach, Kosmos.Pirdora.1m.body_4293867952
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293864964
+	pos = -0.8850584,4.285396,3.083322
+	rot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 26
+	sqor = -1
+	attm = 1
+	cData = tgt: C7fuselage_82; pos: -1.732704,-2.210938,-1.8491; dir: -0.5152276,-0.6574328,-0.5498388
+	sym = Kosmos.Angara.Strut.Connector.Strap_4293865012
+	srfN = srfAttach, Kosmos.Pirdora.1m.body_4293867952
+}
+PART
+{
+	part = DRhinge1_4293864916
+	pos = 0.5638309,6.715416,3.017564
+	rot = -1.490116E-08,-7.525086E-06,7.584691E-06,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 27
+	sqor = -1
+	attm = 1
+	cData = AAEAAAD|||||AQAAAAAAAAAEAQAAAOIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuRGljdGlvbmFyeWAyW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuNS4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdjZWM4NWQ3YmVhNzc5OGVdLFtTeXN0ZW0uT2JqZWN0LCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuNS4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdjZWM4NWQ3YmVhNzc5OGVdXQQAAAAHVmVyc2lvbghDb21wYXJlcghIYXNoU2l6ZQ1LZXlWYWx1ZVBhaXJzAAMAAwiSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV1dCOYBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV0sW1N5c3RlbS5PYmplY3QsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV1dW10GAAAACQIAAAAMAAAACQMAAAAEAgAAAJIBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjUuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03Y2VjODVkN2JlYTc3OThlXV0AAAAABwMAAAAAAQAAAAYAAAAD5AFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5LZXlWYWx1ZVBhaXJgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjUuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03Y2VjODVkN2JlYTc3OThlXSxbU3lzdGVtLk9iamVjdCwgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjUuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03Y2VjODVkN2JlYTc3OThlXV0EBAAAAOQBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV0sW1N5c3RlbS5PYmplY3QsIG1zY29ybGliLCBWZXJzaW9uPTIuMC41LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49N2NlYzg1ZDdiZWE3Nzk4ZV1dAgAAAANrZXkFdmFsdWUBAgYFAAAABG5hbWUGBgAAAAlOZXcgSGluZ2UBBwAAAAQAAAAGCAAAAANyb3QICwAAAAABCQAAAAQAAAAGCgAAAAV0cmFucwgLAAAAAAELAAAABAAAAAYMAAAABWdyb3VwBg0AAAAJU3RvcEJsb2NrAQ4AAAAEAAAABg8AAAADa2V5BhAAAAABMwERAAAABAAAAAYSAAAABnJldmtleQYTAAAAATQL
+	link = DRarmtruss1_4293864884
+	srfN = srfAttach, DRarmtruss1_4293867860
+}
+PART
+{
+	part = DRarmtruss1_4293864884
+	pos = 0.5596424,7.214759,2.999673
+	rot = -7.450581E-08,-7.405877E-06,7.465482E-06,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 28
+	sqor = -1
+	attm = 1
+	link = DRarmtruss1_4293864852
+	link = Kosmos.Angara.Strut.Connector.Strap_4293855208
+	link = Kosmos.Angara.Strut.Connector.Strap_4293846230
+	srfN = srfAttach, DRhinge1_4293864916
+}
+PART
+{
+	part = DRarmtruss1_4293864852
+	pos = 0.559827,8.486827,3.222051
+	rot = 0.7071084,3.796324E-07,1.0274E-05,0.7071054
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 29
+	sqor = -1
+	attm = 1
+	link = DRarmtruss1_4293864820
+	link = probekitStrut2_4293853354
+	link = Kosmos.Angara.Strut.Connector.Strap_4293849952
+	link = Kosmos.Angara.Strut.Connector.Strap_4293848078
+	srfN = srfAttach, DRarmtruss1_4293864884
+}
+PART
+{
+	part = DRarmtruss1_4293864820
+	pos = 0.3374281,8.481109,4.511772
+	rot = 0.7071126,-0.7071012,1.801299E-06,-7.344531E-06
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 30
+	sqor = -1
+	attm = 1
+	link = DRarmtruss1_4293864436
+	link = probekitStrut2_4293852472
+	link = Kosmos.Angara.Strut.Connector.Strap_4293849506
+	link = Kosmos.Angara.Strut.Connector.Strap_4293847708
+	link = Kosmos.Angara.Strut.Connector.Strap_4293846700
+	srfN = srfAttach, DRarmtruss1_4293864852
+}
+PART
+{
+	part = telescopicLadderBay_4293864788
+	pos = -0.2323045,1.309869,-3.928174
+	rot = -0.3265015,0.6272137,0.3265014,-0.6272137
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 16
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DRarmtruss2_4293866566
+	MODULE
+	{
+		name = RetractableLadder
+		isEnabled = True
+		StateName = Retracted
+		ladderAnimationRootName = Telescopic ladder
+		ladderColliderName = ladderCollider
+		ladderRetractAnimationName = Retract
+		externalActivationRange = 5
+	}
+}
+PART
+{
+	part = DRarmtruss1_4293864436
+	pos = -0.9109603,8.481111,4.289381
+	rot = 0.4999934,-0.4999972,0.5000068,-0.500003
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 31
+	sqor = -1
+	attm = 1
+	link = Kosmos.Angara.Strut.Connector.Strap_4293854666
+	link = Kosmos.Angara.Strut.Connector.Strap_4293850730
+	srfN = srfAttach, DRarmtruss1_4293864820
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293855208
+	pos = 0.3372406,8.60479,3.068794
+	rot = -5.960464E-08,-6.914139E-06,7.659197E-06,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 32
+	sqor = -1
+	attm = 1
+	cData = tgt: DRarmtruss1_7; pos: -0.543448,0.09349114,1.220608; dir: -0.4057427,0.06979951,0.9113182
+	srfN = srfAttach, DRarmtruss1_4293864884
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293854666
+	pos = -0.6885579,8.403324,2.891109
+	rot = 1.170339E-05,0.7071069,-0.7071072,5.224331E-06
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 33
+	sqor = -1
+	attm = 1
+	cData = tgt: DRarmtruss1_7; pos: -0.3000511,-1.398274,-0.2863402; dir: -0.2057286,-0.9587139,-0.1963243
+	srfN = srfAttach, DRarmtruss1_4293864436
+}
+PART
+{
+	part = probekitStrut2_4293853354
+	pos = 0.5279807,8.72171,4.610873
+	rot = -8.016825E-06,1,-4.023314E-06,6.943941E-06
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 34
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DRarmtruss1_4293864852
+}
+PART
+{
+	part = probekitStrut2_4293852472
+	pos = -1.035497,8.715964,4.575717
+	rot = -2.711345E-06,0.7071024,8.673142E-06,0.7071115
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 35
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DRarmtruss1_4293864820
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293850730
+	pos = -0.9191217,8.703489,2.932599
+	rot = -0.499993,0.4999976,-0.5000072,0.5000027
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 36
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_11; pos: -0.9512578,-1.562942,-0.1781431; dir: -0.5174592,-0.8502035,-0.09690294
+	srfN = srfAttach, DRarmtruss1_4293864436
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293849952
+	pos = 0.5505716,8.709202,3.379283
+	rot = -0.5000056,0.5000015,0.4999906,-0.5000026
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 37
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_15; pos: -0.9551149,1.151403,0.08262737; dir: -0.6374807,0.7684901,0.0551472
+	srfN = srfAttach, DRarmtruss1_4293864852
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293849506
+	pos = 0.2221746,8.703485,4.686562
+	rot = -0.7071126,0.7071012,-1.620676E-06,7.461931E-06
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 38
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_15; pos: -0.9484006,-0.2256134,0.006778856; dir: -0.9728273,-0.2314274,0.006956447
+	srfN = srfAttach, DRarmtruss1_4293864820
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293848078
+	pos = 0.7761837,8.692348,4.645135
+	rot = 1.135824E-08,0.7071069,7.096288E-08,0.7071069
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 39
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_15; pos: -0.03966791,0.8121184,-0.1680275; dir: -0.04777434,0.9781418,-0.2023762
+	srfN = srfAttach, DRarmtruss1_4293864852
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293847708
+	pos = -0.7000241,8.703469,4.689261
+	rot = -0.7071126,0.7071012,-1.620676E-06,7.461931E-06
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 40
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_11; pos: -0.9278356,0.2695427,0.03334619; dir: -0.9597281,0.2788046,0.0344947
+	srfN = srfAttach, DRarmtruss1_4293864820
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293846700
+	pos = -1.052561,8.703464,4.704247
+	rot = -0.7071126,0.7071013,-1.622484E-06,7.523343E-06
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 41
+	sqor = -1
+	attm = 1
+	cData = tgt: probekitStrut2_11; pos: -0.8787557,0.01184256,0.04833668; dir: -0.9984002,0.01344992,0.05492051
+	srfN = srfAttach, DRarmtruss1_4293864820
+}
+PART
+{
+	part = Kosmos.Angara.Strut.Connector.Strap_4293846230
+	pos = 0.6155962,7.326992,3.222045
+	rot = -3.083859E-06,0.7071019,7.466163E-06,0.7071119
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 42
+	sqor = -1
+	attm = 1
+	cData = tgt: DRarmtruss1_6; pos: -1.356486,0.9374583,-0.04058284; dir: -0.8224096,0.5683635,-0.02460317
+	srfN = srfAttach, DRarmtruss1_4293864884
+}
